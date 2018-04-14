@@ -1,0 +1,10 @@
+{
+  "displayName" : "List of plugins scripts folder",
+  "author" : ["Stephane PAUTREL"],
+  "contributor" : [],
+  "supportedAgent" : ["Windows"],
+  "description" : {
+    "fr" : "Remonte la liste des scripts du dossier des plugins",
+    "en" : "Retrieve list of plugins scripts folder"
+  }
+}
