@@ -30,9 +30,9 @@ Set colItems = objWMIService.ExecQuery( "SELECT * FROM Win32_Processor", , 48 )
 For Each objItem in colItems
 	ArchiOS = objItem.AddressWidth
 	If ArchiOS = "32" Then
-		PluginDir = "C:\Program Files\OCS Inventory Agent\Plugins"
-	ElseIf ArchiOS = "64" Then
 		PluginDir = "C:\Program Files (x86)\OCS Inventory Agent\Plugins"
+	ElseIf ArchiOS = "64" Then
+		PluginDir = "C:\Program Files\OCS Inventory Agent\Plugins"
 	End If
 Next
 
